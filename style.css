@@ -1,0 +1,83 @@
+
+body {
+    background-image: url(images/Home.png);
+}
+
+.rating-container {
+    text-align: center;
+    margin: 0;
+}
+
+.rating-boxes {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.box:hover,
+.box.active {
+    background-color: #ffcc00;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(11, 62, 88, 0.504);
+}
+
+.button {
+    width: 16rem;
+    background-color: rgb(44, 139, 161);
+    color: #fff;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgb(11, 62, 88);
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+}
+
+button {
+    background-color: rgb(44, 139, 161);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(11, 62, 88);
+    color: #fff;
+}
